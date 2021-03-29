@@ -1,0 +1,101 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: content-box;
+    font-family: cursive;
+}
+
+body {
+    background: #f2f2f2;
+}
+
+nav {
+    background: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    height: 70px;
+    padding: 0 20px;
+    box-shadow: 5px 6px 8px -3px #888888;
+}
+
+nav .logo {
+    color: #171a1d;
+    font-size: 30px;
+    font-weight: 600;
+    letter-spacing: -1px;
+}
+
+nav .nav-items {
+    display: flex;
+    flex: 1;
+    padding: 0 0 0 40px;
+}
+
+nav .nav-items li {
+    list-style: none;
+    padding: 0 15px;
+}
+
+nav .nav-items li a {
+    color: #171a1d;
+    font-size: 18px;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+nav .nav-items li a i {
+    top: 2px;
+    position: relative;
+}
+
+nav .nav-items li a:hover {
+    color: #0fb7a4;
+}
+
+nav form {
+    display: flex;
+    height: 30px;
+    border: 1px solid rgb(15 183 164);
+}
+
+nav form input {
+    border: unset;
+    padding: 5px;
+}
+
+nav form button {
+    background: #0fb7a4;
+    color: #fff;
+    width: 35px;
+    cursor: pointer;
+    border-style: unset;
+}
+
+@media (max-width: 1245px) {
+    nav {
+        padding: 0 5px;
+    }
+}
+
+@media (max-width: 1140px) {
+    nav {
+        padding: 0 5px;
+    }
+
+    nav .logo {
+        flex: 2;
+        text-align: center;
+    }
+
+    nav .nav-items {
+        display: none;
+    }
+
+    nav form {
+        display: none;
+    }
+}
