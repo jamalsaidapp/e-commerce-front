@@ -84,6 +84,6 @@ li {
     width: 100%;
     text-align: center;
     order: 3;
-    display: none;
+    /*display: none;*/
 }
 
