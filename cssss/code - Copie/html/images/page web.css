@@ -1,0 +1,82 @@
+h3{
+	position:absolute;
+	left: 110px;
+	top: 40px;
+
+}
+h6{
+	position:absolute;
+	left: 60px;
+	top: 60px;
+}
+ul{
+	list-style: none;
+	position: absolute;
+	right: 10px;
+	top: 40px;
+	font-size: 14px;
+
+}
+div{
+
+	position: absolute;
+	left: 10px;
+	top: 110px;
+
+}
+.retour{
+	position: absolute;
+	left: 10px;
+	width: 75%;
+	top: 185px;
+	font-size: 12px;
+	color: white;
+	background-color: black;
+
+}
+.red{
+	position: absolute;
+	right: 10px;
+	top: 185px;
+	width: 20%;
+	font-size: 12px;
+	color: white;
+	background-color: red;
+}
+h4{
+	position:absolute;
+	left: 110px;
+	top: 20px;
+	
+}
+
+nav{
+
+}
+section{
+	position:absolute;
+	width: 100%;
+	top: 320px;
+}
+li{
+	display: inline;
+}
+article{
+	position: absolute;
+	left: : 0px;
+	width: 65%;
+	font-size: 12px;
+	text-align: justify;
+
+	
+}
+aside{
+	background-color: grey;
+	font-size: 12px;
+	position: absolute;
+	top: 50px;
+text-align: justify;
+	right: 0px;
+	width: 30%;
+	
+}
